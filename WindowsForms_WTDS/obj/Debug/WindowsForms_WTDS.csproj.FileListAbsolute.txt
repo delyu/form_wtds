@@ -1,0 +1,15 @@
+E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Debug\WindowsForms_WTDS.exe.config
+E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Debug\WindowsForms_WTDS.exe
+E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Debug\WindowsForms_WTDS.pdb
+E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Debug\WindowsForms_WTDS.csprojAssemblyReference.cache
+E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Debug\WindowsForms_WTDS.Form1.resources
+E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Debug\WindowsForms_WTDS.Properties.Resources.resources
+E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Debug\WindowsForms_WTDS.csproj.GenerateResource.cache
+E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Debug\WindowsForms_WTDS.csproj.CoreCompileInputs.cache
+E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Debug\WindowsForms_WTDS.exe
+E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Debug\WindowsForms_WTDS.pdb
+E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Debug\log4net.dll
+E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Debug\NModbus4.dll
+E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Debug\log4net.xml
+E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Debug\NModbus4.xml
+E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Debug\WindowsForms_WTDS.csproj.CopyComplete

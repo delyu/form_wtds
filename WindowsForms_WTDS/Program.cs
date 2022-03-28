@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using log4net;
+using log4net.Config;
 
 namespace WindowsForms_WTDS
 {
@@ -18,5 +20,6 @@ namespace WindowsForms_WTDS
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
+        
     }
 }

@@ -1,0 +1,44 @@
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-25 16:35:04,256                                   
+【线程编号】[10]                                   
+【执行时间】[22942]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】48                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】formtools                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-25 16:44:11,265                                   
+【线程编号】[16]                                   
+【执行时间】[14811]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】48                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】formtools                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-25 17:10:12,989                                   
+【线程编号】[10]                                   
+【执行时间】[136101]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】48                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】formtools                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-25 17:10:12,990                                   
+【线程编号】[5]                                   
+【执行时间】[136102]毫秒                                   
+【出错文件】                                   
+【出错行号】0                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】formtools                                   
+【错误详情】

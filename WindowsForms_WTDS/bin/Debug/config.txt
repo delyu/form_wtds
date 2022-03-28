@@ -1,0 +1,16 @@
+Aup:1.765
+Adown:1.765
+Aud:0.050
+Aleft:1.770
+Aright:1.770
+Alr:0.050
+Bup:1.770
+Bdown:1.770
+Bud:0.050
+Bleft:1.770
+Bright:1.770
+Blr:0.050
+Speed:2.80
+WheelTimespanmin:10
+WheelTimespanmax:30
+Wheelpoint:3

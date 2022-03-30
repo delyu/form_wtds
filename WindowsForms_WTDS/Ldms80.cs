@@ -31,11 +31,24 @@ namespace WindowsForms_WTDS
         public double Aleft { get; set; }
         public double Aright { get; set; }
         public double Bup { get; set; }
-        public double tBleft { get; set; }
+        public double Bleft { get; set; }
         public double Bright { get; set; }
-
         public double Bdown { get; set; }
         public double Aup { get; set; }
+        /// <summary>
+        /// 有效测距平均值清零；
+        /// </summary>
+        public void InitializeABlaser()
+        {
+            Aup = 0;
+            Adown = 0;
+            Aleft = 0;
+            Aright = 0;
+            Bup = 0;
+            Bdown = 0;
+            Bleft = 0;
+            Bright = 0;
+        }
         ////配置文件参数
         public double rAup { get; set; }
         public double rAdown { get; set; }
@@ -59,11 +72,20 @@ namespace WindowsForms_WTDS
         public string WheelID()
         {
             string wheelID = "-1";
-            string path = Directory.GetCurrentDirectory()+@"\\WHEEL_num.txt";
+            string path = Directory.GetCurrentDirectory()+@"\\WHEEL_num.txt";           
             try
             {
-                var vs =File.ReadAllText(path);
-                wheelID = vs.ToString();
+                using (FileStream fs = new FileStream(path, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+                using (StreamReader sr = new StreamReader(fs, System.Text.Encoding.Default))
+                {
+                    var vs = sr.ReadToEnd();
+                    //   var vs = File.ReadAllText(path);
+                    sr.Close();
+                    fs.Close();
+                    wheelID = vs.ToString();
+                    int index = wheelID.Length - 1;
+                    wheelID = wheelID.Remove(index);
+                }
             }
             catch (Exception ex)
             {
@@ -80,76 +102,120 @@ namespace WindowsForms_WTDS
             rwheeltimeSpanmin = 10;
             rwheeltimeSpanmax = 30;
             string path = Directory.GetCurrentDirectory() + @"\\config.txt";
-            try
+            using (FileStream fs = new FileStream(path, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
             {
-                var vs = File.ReadAllLines(path);
-
-                for (int i = 0; i < vs.Length; i++)
+                using (StreamReader sr = new StreamReader(fs, System.Text.Encoding.Default))
                 {
-                    string[] a = vs[i].Split(':');
-                    if (a.Length > 1)
+                   var vs = sr.ReadToEnd().Replace("\r\n", "^").Split('^');
+                    sr.Close();
+                    fs.Close();
+                    try
                     {
-                        switch (a[0])
+                       // var vs = File.ReadAllLines(path);
+
+                        for (int i = 0; i < vs.Length; i++)
                         {
-                            case "Aup":
-                                rAup = Convert.ToDouble(a[1]);
-                                break;
-                            case "Adown":
-                                rAdown = Convert.ToDouble(a[1]);
-                                break;
-                            case "Aud":
-                                rAup2Adown = Convert.ToDouble(a[1]);
-                                break;
-                            case "Aleft":
-                                rAleft = Convert.ToDouble(a[1]);
-                                break;
-                            case "Aright":
-                                rAright = Convert.ToDouble(a[1]);
-                                break;
-                            case "Alr":
-                                rAleft2Aright = Convert.ToDouble(a[1]);
-                                break;
-                            case "Bup":
-                                rBup = Convert.ToDouble(a[1]);
-                                break;
-                            case "Bdown":
-                                rBdown = Convert.ToDouble(a[1]);
-                                break;
-                            case "Bud":
-                                rBup2Bdown = Convert.ToDouble(a[1]);
-                                break;
-                            case "tBleft":
-                                rBleft = Convert.ToDouble(a[1]);
-                                break;
-                            case "Bright":
-                                rBright = Convert.ToDouble(a[1]);
-                                break;
-                            case "Blr":
-                                rBleft2Bright = Convert.ToDouble(a[1]);
-                                break;
-                            case "Speed":
-                                rwheelSpeed = Convert.ToDouble(a[1]);
-                                break;
-                            case "WheelTimespanmin":
-                                rwheeltimeSpanmin = Convert.ToDouble(a[1]);
-                                break;
-                            case "WheelTimespanmax":
-                                rwheeltimeSpanmax = Convert.ToDouble(a[1]);
-                                break;
-                            case "Wheelpoint":
-                                rwheelpoint = Convert.ToDouble(a[1]);
-                                break;
-                            default:
-                                break;
+                            string[] a = vs[i].Split(':');
+                            if (a.Length > 1)
+                            {
+                                switch (a[0])
+                                {
+                                    case "Aup":
+                                        rAup = Convert.ToDouble(a[1]);
+                                        break;
+                                    case "Adown":
+                                        rAdown = Convert.ToDouble(a[1]);
+                                        break;
+                                    case "Aud":
+                                        rAup2Adown = Convert.ToDouble(a[1]);
+                                        break;
+                                    case "Aleft":
+                                        rAleft = Convert.ToDouble(a[1]);
+                                        break;
+                                    case "Aright":
+                                        rAright = Convert.ToDouble(a[1]);
+                                        break;
+                                    case "Alr":
+                                        rAleft2Aright = Convert.ToDouble(a[1]);
+                                        break;
+                                    case "Bup":
+                                        rBup = Convert.ToDouble(a[1]);
+                                        break;
+                                    case "Bdown":
+                                        rBdown = Convert.ToDouble(a[1]);
+                                        break;
+                                    case "Bud":
+                                        rBup2Bdown = Convert.ToDouble(a[1]);
+                                        break;
+                                    case "Bleft":
+                                        rBleft = Convert.ToDouble(a[1]);
+                                        break;
+                                    case "Bright":
+                                        rBright = Convert.ToDouble(a[1]);
+                                        break;
+                                    case "Blr":
+                                        rBleft2Bright = Convert.ToDouble(a[1]);
+                                        break;
+                                    case "Speed":
+                                        rwheelSpeed = Convert.ToDouble(a[1]);
+                                        break;
+                                    case "WheelTimespanmin":
+                                        rwheeltimeSpanmin = Convert.ToDouble(a[1]);
+                                        break;
+                                    case "WheelTimespanmax":
+                                        rwheeltimeSpanmax = Convert.ToDouble(a[1]);
+                                        break;
+                                    case "Wheelpoint":
+                                        rwheelpoint = Convert.ToDouble(a[1]);
+                                        break;
+                                    default:
+                                        break;
+                                }
+                            }
                         }
+                    }
+                    catch (Exception ex)
+                    {
+                        Log.Error("config.txt读取错误", ex);
                     }
                 }
             }
+          
+           
+        }
+        public void writeWheelsave(string data)
+        {
+          
+            string path = Directory.GetCurrentDirectory() + @"\WHEEL_SAVED.txt";
+            string path2 = Directory.GetCurrentDirectory() + @"\WHEEL.txt";
+
+            try
+            {
+                //using (FileStream fs1 = new FileStream(path2, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite))
+                //{
+                using (StreamWriter sW1 = new StreamWriter(path2, false, System.Text.Encoding.Default))
+                {
+                    sW1.Write(data);
+                    sW1.Flush();
+                    sW1.Close();
+                }
+                //}
+
+
+                using (StreamWriter sW2 = new StreamWriter(path, true, System.Text.Encoding.Default))
+                {
+                    sW2.WriteLine(DateTime.Now.ToString() + data);
+                    sW2.Flush();
+                    sW2.Close();                   
+                }
+
+
+            }
             catch (Exception ex)
             {
-                Log.Error("config.txt读取错误", ex);
+                Log.Error("WHEEL.txt写错误", ex);
             }
-           
+
         }
     }
     

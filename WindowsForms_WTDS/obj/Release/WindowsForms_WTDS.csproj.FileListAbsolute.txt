@@ -1,8 +1,9 @@
-E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Release\WindowsForms_WTDS.exe
-E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Release\log4net.dll
-E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Release\NModbus.dll
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Release\log4net.config
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Release\WindowsForms_WTDS.exe.config
+E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Release\WindowsForms_WTDS.exe
+E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Release\WindowsForms_WTDS.pdb
+E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Release\log4net.dll
+E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Release\NModbus.dll
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Release\NModbus4.dll
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Release\PInvoke.Kernel32.dll
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Release\PInvoke.Windows.Core.dll
@@ -22,11 +23,12 @@ E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Release\System.Nu
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Release\System.Threading.Tasks.Extensions.xml
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Release\WindowsForms_WTDS.Form1.resources
+E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Release\WindowsForms_WTDS.Form_main.resources
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Release\WindowsForms_WTDS.Properties.Resources.resources
+E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Release\WindowsForms_WTDS.Welcome.resources
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Release\WindowsForms_WTDS.csproj.GenerateResource.cache
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Release\WindowsForms_WTDS.csproj.CoreCompileInputs.cache
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Release\WindowsForms_WTDS.csproj.CopyComplete
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Release\WindowsForms_WTDS.exe
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Release\WindowsForms_WTDS.pdb
-E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Release\WindowsForms_WTDS.pdb
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Release\WindowsForms_WTDS.csprojAssemblyReference.cache

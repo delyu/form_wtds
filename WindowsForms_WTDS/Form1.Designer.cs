@@ -30,6 +30,7 @@ namespace WindowsForms_WTDS
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.groupBox_A = new System.Windows.Forms.GroupBox();
             this.label23 = new System.Windows.Forms.Label();
             this.label_static_Aspeed = new System.Windows.Forms.Label();
@@ -101,6 +102,7 @@ namespace WindowsForms_WTDS
             this.button3 = new System.Windows.Forms.Button();
             this.label16 = new System.Windows.Forms.Label();
             this.label_systime = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.groupBox_A.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -441,7 +443,7 @@ namespace WindowsForms_WTDS
             this.groupBox1.Controls.Add(this.textBox_Bup);
             this.groupBox1.Controls.Add(this.label45);
             this.groupBox1.Controls.Add(this.label46);
-            this.groupBox1.Location = new System.Drawing.Point(63, 339);
+            this.groupBox1.Location = new System.Drawing.Point(63, 316);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -716,7 +718,7 @@ namespace WindowsForms_WTDS
             // label47
             // 
             this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(744, 34);
+            this.label47.Location = new System.Drawing.Point(620, 34);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(67, 15);
             this.label47.TabIndex = 34;
@@ -726,7 +728,7 @@ namespace WindowsForms_WTDS
             // 
             this.label_sysdate.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.label_sysdate.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label_sysdate.Location = new System.Drawing.Point(820, 29);
+            this.label_sysdate.Location = new System.Drawing.Point(696, 29);
             this.label_sysdate.Name = "label_sysdate";
             this.label_sysdate.Size = new System.Drawing.Size(93, 26);
             this.label_sysdate.TabIndex = 33;
@@ -734,7 +736,7 @@ namespace WindowsForms_WTDS
             // label49
             // 
             this.label49.AutoSize = true;
-            this.label49.Location = new System.Drawing.Point(744, 101);
+            this.label49.Location = new System.Drawing.Point(620, 101);
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(67, 15);
             this.label49.TabIndex = 36;
@@ -744,47 +746,47 @@ namespace WindowsForms_WTDS
             // 
             this.label_sysspeed.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.label_sysspeed.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label_sysspeed.Location = new System.Drawing.Point(820, 97);
+            this.label_sysspeed.Location = new System.Drawing.Point(696, 97);
             this.label_sysspeed.Name = "label_sysspeed";
             this.label_sysspeed.Size = new System.Drawing.Size(93, 26);
             this.label_sysspeed.TabIndex = 35;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(799, 543);
+            this.button1.Location = new System.Drawing.Point(638, 525);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(114, 29);
             this.button1.TabIndex = 37;
             this.button1.Text = "停止接收数据";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(799, 603);
+            this.button2.Location = new System.Drawing.Point(638, 585);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(114, 29);
             this.button2.TabIndex = 38;
             this.button2.Text = "开始测量";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(799, 489);
+            this.button3.Location = new System.Drawing.Point(638, 471);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(114, 33);
             this.button3.TabIndex = 39;
             this.button3.Text = "开始接收数据";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button3.Click += new System.EventHandler(this.Button3_Click);
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(744, 67);
+            this.label16.Location = new System.Drawing.Point(620, 67);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(67, 15);
             this.label16.TabIndex = 41;
@@ -794,16 +796,20 @@ namespace WindowsForms_WTDS
             // 
             this.label_systime.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.label_systime.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label_systime.Location = new System.Drawing.Point(820, 62);
+            this.label_systime.Location = new System.Drawing.Point(696, 62);
             this.label_systime.Name = "label_systime";
             this.label_systime.Size = new System.Drawing.Size(93, 26);
             this.label_systime.TabIndex = 40;
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(999, 684);
+            this.ClientSize = new System.Drawing.Size(810, 634);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label_systime);
             this.Controls.Add(this.button3);
@@ -818,6 +824,7 @@ namespace WindowsForms_WTDS
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox_A.ResumeLayout(false);
@@ -904,6 +911,7 @@ namespace WindowsForms_WTDS
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label_systime;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

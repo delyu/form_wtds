@@ -1,0 +1,11 @@
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-29 19:10:26,551                                   
+【线程编号】[16]                                   
+【执行时间】[47466]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】48                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】formtools                                   
+【错误详情】

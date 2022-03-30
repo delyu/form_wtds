@@ -1,0 +1,394 @@
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-29 11:40:35,701                                   
+【线程编号】[4]                                   
+【执行时间】[51510]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】55                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】WHEEL_num.txt读取错误                                   
+【错误详情】
+System.ArgumentOutOfRangeException: startIndex 必须小于字符串长度。
+参数名: startIndex
+   在 System.String.Remove(Int32 startIndex)
+   在 WindowsForms_WTDS.Ldms80contorl.WheelID() 位置 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\Ldms80.cs:行号 66
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-29 11:41:46,750                                   
+【线程编号】[17]                                   
+【执行时间】[122559]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】55                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】WHEEL_num.txt读取错误                                   
+【错误详情】
+System.ArgumentOutOfRangeException: startIndex 必须小于字符串长度。
+参数名: startIndex
+   在 System.String.Remove(Int32 startIndex)
+   在 WindowsForms_WTDS.Ldms80contorl.WheelID() 位置 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\Ldms80.cs:行号 66
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-29 11:42:06,511                                   
+【线程编号】[4]                                   
+【执行时间】[142319]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】55                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】WHEEL_num.txt读取错误                                   
+【错误详情】
+System.ArgumentOutOfRangeException: startIndex 必须小于字符串长度。
+参数名: startIndex
+   在 System.String.Remove(Int32 startIndex)
+   在 WindowsForms_WTDS.Ldms80contorl.WheelID() 位置 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\Ldms80.cs:行号 66
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-29 11:42:06,546                                   
+【线程编号】[17]                                   
+【执行时间】[142354]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】55                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】config.txt读取错误                                   
+【错误详情】
+System.IO.IOException: 文件“E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Debug\WHEEL_SAVED.txt”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append)
+   在 System.IO.File.AppendText(String path)
+   在 WindowsForms_WTDS.Ldms80contorl.writeWheelsave(String data) 位置 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\Ldms80.cs:行号 160
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-29 11:42:44,906                                   
+【线程编号】[9]                                   
+【执行时间】[180715]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】55                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】WHEEL_num.txt读取错误                                   
+【错误详情】
+System.ArgumentOutOfRangeException: startIndex 必须小于字符串长度。
+参数名: startIndex
+   在 System.String.Remove(Int32 startIndex)
+   在 WindowsForms_WTDS.Ldms80contorl.WheelID() 位置 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\Ldms80.cs:行号 66
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-29 11:42:44,924                                   
+【线程编号】[9]                                   
+【执行时间】[180733]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】55                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】config.txt读取错误                                   
+【错误详情】
+System.IO.IOException: 文件“E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Debug\WHEEL_SAVED.txt”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append)
+   在 System.IO.File.AppendText(String path)
+   在 WindowsForms_WTDS.Ldms80contorl.writeWheelsave(String data) 位置 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\Ldms80.cs:行号 160
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-29 11:45:15,665                                   
+【线程编号】[9]                                   
+【执行时间】[31338]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】55                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】WHEEL_num.txt读取错误                                   
+【错误详情】
+System.ArgumentOutOfRangeException: startIndex 必须小于字符串长度。
+参数名: startIndex
+   在 System.String.Remove(Int32 startIndex)
+   在 WindowsForms_WTDS.Ldms80contorl.WheelID() 位置 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\Ldms80.cs:行号 66
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-29 11:45:45,650                                   
+【线程编号】[4]                                   
+【执行时间】[61322]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】55                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】WHEEL_num.txt读取错误                                   
+【错误详情】
+System.ArgumentOutOfRangeException: startIndex 必须小于字符串长度。
+参数名: startIndex
+   在 System.String.Remove(Int32 startIndex)
+   在 WindowsForms_WTDS.Ldms80contorl.WheelID() 位置 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\Ldms80.cs:行号 66
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-29 11:46:29,568                                   
+【线程编号】[9]                                   
+【执行时间】[105241]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】55                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】WHEEL_num.txt读取错误                                   
+【错误详情】
+System.ArgumentOutOfRangeException: startIndex 必须小于字符串长度。
+参数名: startIndex
+   在 System.String.Remove(Int32 startIndex)
+   在 WindowsForms_WTDS.Ldms80contorl.WheelID() 位置 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\Ldms80.cs:行号 66
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-29 11:47:03,321                                   
+【线程编号】[12]                                   
+【执行时间】[138994]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】55                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】WHEEL_num.txt读取错误                                   
+【错误详情】
+System.ArgumentOutOfRangeException: startIndex 必须小于字符串长度。
+参数名: startIndex
+   在 System.String.Remove(Int32 startIndex)
+   在 WindowsForms_WTDS.Ldms80contorl.WheelID() 位置 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\Ldms80.cs:行号 66
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-29 11:49:17,206                                   
+【线程编号】[9]                                   
+【执行时间】[30303]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】55                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】WHEEL_num.txt读取错误                                   
+【错误详情】
+System.ArgumentOutOfRangeException: startIndex 必须小于字符串长度。
+参数名: startIndex
+   在 System.String.Remove(Int32 startIndex)
+   在 WindowsForms_WTDS.Ldms80contorl.WheelID() 位置 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\Ldms80.cs:行号 66
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-29 11:49:48,468                                   
+【线程编号】[17]                                   
+【执行时间】[61565]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】55                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】WHEEL_num.txt读取错误                                   
+【错误详情】
+System.ArgumentOutOfRangeException: startIndex 必须小于字符串长度。
+参数名: startIndex
+   在 System.String.Remove(Int32 startIndex)
+   在 WindowsForms_WTDS.Ldms80contorl.WheelID() 位置 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\Ldms80.cs:行号 66
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-29 11:49:48,488                                   
+【线程编号】[18]                                   
+【执行时间】[61585]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】55                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】config.txt读取错误                                   
+【错误详情】
+System.IO.IOException: 文件“E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Debug\WHEEL_SAVED.txt”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append)
+   在 System.IO.File.AppendText(String path)
+   在 WindowsForms_WTDS.Ldms80contorl.writeWheelsave(String data) 位置 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\Ldms80.cs:行号 160
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-29 11:50:18,311                                   
+【线程编号】[9]                                   
+【执行时间】[91408]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】55                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】WHEEL_num.txt读取错误                                   
+【错误详情】
+System.ArgumentOutOfRangeException: startIndex 必须小于字符串长度。
+参数名: startIndex
+   在 System.String.Remove(Int32 startIndex)
+   在 WindowsForms_WTDS.Ldms80contorl.WheelID() 位置 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\Ldms80.cs:行号 66
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-29 12:07:02,372                                   
+【线程编号】[6]                                   
+【执行时间】[100177]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】55                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】config.txt读取错误                                   
+【错误详情】
+System.IO.IOException: 文件“E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Debug\WHEEL_SAVED.txt”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append)
+   在 System.IO.File.AppendText(String path)
+   在 WindowsForms_WTDS.Ldms80contorl.writeWheelsave(String data) 位置 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\Ldms80.cs:行号 160
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-29 12:23:41,306                                   
+【线程编号】[16]                                   
+【执行时间】[134963]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】55                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】config.txt读取错误                                   
+【错误详情】
+System.IO.IOException: 文件“E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Debug\WHEEL_SAVED.txt”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append)
+   在 System.IO.File.AppendText(String path)
+   在 WindowsForms_WTDS.Ldms80contorl.writeWheelsave(String data) 位置 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\Ldms80.cs:行号 161
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-29 12:24:31,256                                   
+【线程编号】[17]                                   
+【执行时间】[184913]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】55                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】config.txt读取错误                                   
+【错误详情】
+System.IO.IOException: 文件“E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Debug\WHEEL_SAVED.txt”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append)
+   在 System.IO.File.AppendText(String path)
+   在 WindowsForms_WTDS.Ldms80contorl.writeWheelsave(String data) 位置 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\Ldms80.cs:行号 161
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-29 12:25:04,117                                   
+【线程编号】[15]                                   
+【执行时间】[217774]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】55                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】config.txt读取错误                                   
+【错误详情】
+System.IO.IOException: 文件“E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Debug\WHEEL_SAVED.txt”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append)
+   在 System.IO.File.AppendText(String path)
+   在 WindowsForms_WTDS.Ldms80contorl.writeWheelsave(String data) 位置 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\Ldms80.cs:行号 161
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-29 13:11:27,355                                   
+【线程编号】[18]                                   
+【执行时间】[9781]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】48                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】formtools                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-29 13:59:51,358                                   
+【线程编号】[10]                                   
+【执行时间】[17700]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】48                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】formtools                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-29 14:00:02,826                                   
+【线程编号】[5]                                   
+【执行时间】[29167]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】48                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】formtools                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-29 14:36:27,487                                   
+【线程编号】[12]                                   
+【执行时间】[25962]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】48                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】formtools                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-29 14:45:00,030                                   
+【线程编号】[6]                                   
+【执行时间】[16140]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】48                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】formtools                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-29 18:53:00,281                                   
+【线程编号】[9]                                   
+【执行时间】[30251]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】55                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】WHEEL.txt写错误                                   
+【错误详情】
+System.IO.FileNotFoundException: 未能找到文件“E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Debug\WHEEL_SAVED.txt”。
+文件名:“E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Debug\WHEEL_SAVED.txt”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   在 WindowsForms_WTDS.Ldms80contorl.writeWheelsave(String data) 位置 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\Ldms80.cs:行号 180
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-29 18:53:30,261                                   
+【线程编号】[11]                                   
+【执行时间】[60231]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】55                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】WHEEL.txt写错误                                   
+【错误详情】
+System.IO.FileNotFoundException: 未能找到文件“E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Debug\WHEEL_SAVED.txt”。
+文件名:“E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Debug\WHEEL_SAVED.txt”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   在 WindowsForms_WTDS.Ldms80contorl.writeWheelsave(String data) 位置 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\Ldms80.cs:行号 180

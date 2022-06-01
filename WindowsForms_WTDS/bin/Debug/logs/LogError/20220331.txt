@@ -1,0 +1,98 @@
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-31 13:26:54,317                                   
+【线程编号】[60]                                   
+【执行时间】[71356]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】55                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】WHEEL.txt写错误                                   
+【错误详情】
+System.IO.IOException: 文件“E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Debug\WHEEL.txt”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   在 WindowsForms_WTDS.Ldms80contorl.writeWheelsave(String data) 位置 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\Ldms80.cs:行号 197
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-31 15:15:27,456                                   
+【线程编号】[9]                                   
+【执行时间】[20657]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】48                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】formtools                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-31 16:03:22,972                                   
+【线程编号】[6]                                   
+【执行时间】[11598]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】48                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】formtools                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-31 16:10:00,566                                   
+【线程编号】[6]                                   
+【执行时间】[100148]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】55                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】WHEEL.txt写错误                                   
+【错误详情】
+System.IO.IOException: 文件“E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Debug\WHEEL.txt”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   在 WindowsForms_WTDS.Ldms80contorl.writeWheelsave(String data) 位置 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\Ldms80.cs:行号 197
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-31 16:10:00,566                                   
+【线程编号】[31]                                   
+【执行时间】[100148]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】55                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】WHEEL.txt写错误                                   
+【错误详情】
+System.IO.IOException: 文件“E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Debug\WHEEL.txt”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   在 WindowsForms_WTDS.Ldms80contorl.writeWheelsave(String data) 位置 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\Ldms80.cs:行号 197
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-03-31 16:10:17,881                                   
+【线程编号】[30]                                   
+【执行时间】[117462]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】55                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】WHEEL.txt写错误                                   
+【错误详情】
+System.IO.IOException: 文件“E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Debug\WHEEL.txt”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   在 WindowsForms_WTDS.Ldms80contorl.writeWheelsave(String data) 位置 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\Ldms80.cs:行号 197

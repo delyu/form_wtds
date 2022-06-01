@@ -97,9 +97,9 @@ namespace WindowsForms_WTDS
             this.label_sysdate = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
             this.label_sysspeed = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.stop = new System.Windows.Forms.Button();
+            this.ConnectLaser = new System.Windows.Forms.Button();
+            this.start_recv = new System.Windows.Forms.Button();
             this.label16 = new System.Windows.Forms.Label();
             this.label_systime = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
@@ -751,37 +751,37 @@ namespace WindowsForms_WTDS
             this.label_sysspeed.Size = new System.Drawing.Size(93, 26);
             this.label_sysspeed.TabIndex = 35;
             // 
-            // button1
+            // stop
             // 
-            this.button1.Location = new System.Drawing.Point(638, 525);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(114, 29);
-            this.button1.TabIndex = 37;
-            this.button1.Text = "停止接收数据";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            this.stop.Location = new System.Drawing.Point(638, 525);
+            this.stop.Margin = new System.Windows.Forms.Padding(4);
+            this.stop.Name = "stop";
+            this.stop.Size = new System.Drawing.Size(114, 29);
+            this.stop.TabIndex = 37;
+            this.stop.Text = "停止接收数据";
+            this.stop.UseVisualStyleBackColor = true;
+            this.stop.Click += new System.EventHandler(this.Button_stop_Click);
             // 
-            // button2
+            // ConnectLaser
             // 
-            this.button2.Location = new System.Drawing.Point(638, 585);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(114, 29);
-            this.button2.TabIndex = 38;
-            this.button2.Text = "开始测量";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.Button2_Click);
+            this.ConnectLaser.Location = new System.Drawing.Point(638, 585);
+            this.ConnectLaser.Margin = new System.Windows.Forms.Padding(4);
+            this.ConnectLaser.Name = "ConnectLaser";
+            this.ConnectLaser.Size = new System.Drawing.Size(114, 29);
+            this.ConnectLaser.TabIndex = 38;
+            this.ConnectLaser.Text = "打开连接";
+            this.ConnectLaser.UseVisualStyleBackColor = true;
+            this.ConnectLaser.Click += new System.EventHandler(this.Buttonconnect_Click);
             // 
-            // button3
+            // start_recv
             // 
-            this.button3.Location = new System.Drawing.Point(638, 471);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(114, 33);
-            this.button3.TabIndex = 39;
-            this.button3.Text = "开始接收数据";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.Button3_Click);
+            this.start_recv.Location = new System.Drawing.Point(638, 471);
+            this.start_recv.Name = "start_recv";
+            this.start_recv.Size = new System.Drawing.Size(114, 33);
+            this.start_recv.TabIndex = 39;
+            this.start_recv.Text = "开始接收数据";
+            this.start_recv.UseVisualStyleBackColor = true;
+            this.start_recv.Click += new System.EventHandler(this.Button_startRecv_Click);
             // 
             // label16
             // 
@@ -812,9 +812,9 @@ namespace WindowsForms_WTDS
             this.ClientSize = new System.Drawing.Size(810, 634);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label_systime);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.start_recv);
+            this.Controls.Add(this.ConnectLaser);
+            this.Controls.Add(this.stop);
             this.Controls.Add(this.label49);
             this.Controls.Add(this.label_sysspeed);
             this.Controls.Add(this.label47);
@@ -906,9 +906,9 @@ namespace WindowsForms_WTDS
         private System.Windows.Forms.Label label_sysdate;
         private System.Windows.Forms.Label label49;
         private System.Windows.Forms.Label label_sysspeed;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button stop;
+        private System.Windows.Forms.Button ConnectLaser;
+        private System.Windows.Forms.Button start_recv;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label_systime;
         private System.Windows.Forms.Timer timer1;

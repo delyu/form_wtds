@@ -24,11 +24,11 @@ E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Debug\System.Runt
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Debug\System.Threading.Tasks.Extensions.xml
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Debug\WindowsForms_WTDS.csprojAssemblyReference.cache
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Debug\WindowsForms_WTDS.Form1.resources
+E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Debug\WindowsForms_WTDS.Form_main.resources
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Debug\WindowsForms_WTDS.Properties.Resources.resources
+E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Debug\WindowsForms_WTDS.Welcome.resources
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Debug\WindowsForms_WTDS.csproj.GenerateResource.cache
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Debug\WindowsForms_WTDS.csproj.CoreCompileInputs.cache
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Debug\WindowsForms_WTDS.csproj.CopyComplete
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Debug\WindowsForms_WTDS.exe
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Debug\WindowsForms_WTDS.pdb
-E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Debug\WindowsForms_WTDS.Welcome.resources
-E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Debug\WindowsForms_WTDS.Form_main.resources

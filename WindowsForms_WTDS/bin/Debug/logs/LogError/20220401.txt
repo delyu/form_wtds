@@ -1,0 +1,30 @@
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-04-01 19:14:16,256                                   
+【线程编号】[11]                                   
+【执行时间】[57078]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】55                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】WHEEL.txt写错误                                   
+【错误详情】
+System.IO.IOException: 文件“E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Debug\WHEEL_SAVED.txt”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   在 WindowsForms_WTDS.Ldms80contorl.writeWheelsave(String data) 位置 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\Ldms80.cs:行号 206
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2022-04-01 20:51:40,143                                   
+【线程编号】[4]                                   
+【执行时间】[69353]毫秒                                   
+【出错文件】E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\LogHelper.cs                                   
+【出错行号】48                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】formtools                                   
+【错误详情】

@@ -42,7 +42,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(800, 450);
             this.label1.TabIndex = 0;
-            this.label1.Text = "烧结机/环冷机车轮扭曲检测装置\r\n\r\n 上海信通机电工程有限公司\r\n\r\n20220309001  V1.0\r\n";
+            this.label1.Text = "烧结机/环冷机车轮扭曲检测装置\r\n\r\n 上海信通机电工程有限公司\r\n\r\n20220623001  V1.0\r\n";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 

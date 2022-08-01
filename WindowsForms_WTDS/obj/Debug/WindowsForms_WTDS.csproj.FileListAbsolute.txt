@@ -22,7 +22,6 @@ E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Debug\System.Memo
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Debug\System.Numerics.Vectors.xml
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\bin\Debug\System.Threading.Tasks.Extensions.xml
-E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Debug\WindowsForms_WTDS.csprojAssemblyReference.cache
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Debug\WindowsForms_WTDS.Form1.resources
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Debug\WindowsForms_WTDS.Form_main.resources
 E:\develop\WTDS\c#wtds\WindowsForms_WTDS\WindowsForms_WTDS\obj\Debug\WindowsForms_WTDS.Properties.Resources.resources

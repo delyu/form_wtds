@@ -1231,6 +1231,9 @@ namespace WindowsForms_WTDS
             int wheelA = 2;//判断A测是否正常
             int wheelB = 2;//判断B测是否正常
             var t0 = DateTime.Now;
+            var t1 = DateTime.Now;//测到车轮后附加测量3秒用；
+            bool dely = true ;//判断是否已经完成附加测量
+
             ldms80.InitializeABlaser();
             while (TstartWheel)
             {
@@ -1276,23 +1279,31 @@ namespace WindowsForms_WTDS
                         if (JudgeWheeel(contBup, contBdown, contBleft, contBright, (int)ldms80.rwheelpoint) > 1)//判断时间间隔，输出测量值
                             wheelB = 1;
                         if (wheelA == 1 && wheelB == 1)
-
                         {
-                            t0 = DateTime.Now;                           
-                            ldms80.writeWheelsave(Wheeldata(Aup, Adown, Aleft, Aright, wheelA.ToString(), Bup, Bdown, Bleft, Bright, wheelB.ToString()));
-                            //ldms80.InitializeABlaser();
-                            InitializeABlaser();
-                            wheelB = 2;
-                            wheelA = 2;
-                            stopTemp = true;
-                            sentLaser(ldms80.SendBufStop);
-                            ControlInvoker.Invoke(this, delegate
-                            {
-                                timer1.Interval = (int)ldms80.rwheeltimeSpanmin * 1000;
-                                timer1.Enabled = true;
-                                timer1.Start();
-                            });
-
+                        //    if (dely)
+                        //    {
+                        //        t1 = DateTime.Now;
+                        //        dely = false;
+                        //    }
+                        //    TimeSpan delytime = DateTime.Now - t1;
+                        //    if (delytime.Milliseconds>1000)
+                        //    {
+                                t0 = DateTime.Now;
+                                dely = true;                              
+                                ldms80.writeWheelsave(Wheeldata(Aup, Adown, Aleft, Aright, wheelA.ToString(), Bup, Bdown, Bleft, Bright, wheelB.ToString()));
+                                //ldms80.InitializeABlaser();
+                                InitializeABlaser();
+                                wheelB = 2;
+                                wheelA = 2;
+                                stopTemp = true;
+                                sentLaser(ldms80.SendBufStop);
+                                ControlInvoker.Invoke(this, delegate
+                                {
+                                    timer1.Interval = (int)ldms80.rwheeltimeSpanmin * 1000;
+                                    timer1.Enabled = true;
+                                    timer1.Start();
+                                });
+                           // }
                         }
                     }
                     if (timeSpan.TotalSeconds > ldms80.rwheeltimeSpanmax)
@@ -1369,10 +1380,18 @@ namespace WindowsForms_WTDS
         /// <returns></returns>
         private string Wheeldata(double aup,double adown,double aleft,double aright,string  a,double bup,double bdown,double bleft,double bright,string b )
         {
-            double aud = aup - adown;
-            double alr = aleft - aright;
-            double bud = bup - bdown;
-            double blr = bleft - bright;
+            double aud = aup - adown*1.00001;//剔除两个数据恰好相同的情形。
+            double alr = aleft - aright * 1.00001;
+            double bud = bup - bdown * 1.00001;
+            double blr = bleft - bright * 1.00001;
+            if ((aud != 0 && Math.Abs(aud) < ldms80.rAup2Adown) || (alr != 0 && Math.Abs(alr) < ldms80.rAup2Adown))
+            {
+                a = 1.ToString();
+            }
+            if ((bud != 0 && Math.Abs(bud) < ldms80.rBup2Bdown) || (blr != 0 && Math.Abs(blr) < ldms80.rBup2Bdown))
+            {
+                b = 1.ToString();
+            }
             string data =ldms80.WheelID()+"&"+ldms80.rAup2Adown.ToString("#0.000") +"&"+ldms80.rAleft2Aright.ToString("#0.000") + "$"
                 +aup.ToString("#0.000") + "&"+ adown.ToString("#0.000") + "&" +aud.ToString("#0.000") + "&" + a + "&"
                 +aleft.ToString("#0.000") + "&"+aright.ToString("#0.000") + "&"+alr.ToString("#0.000") + "&"+a+"&"+ldms80.rwheelSpeed.ToString("#0.00")+ "$"
@@ -1413,7 +1432,8 @@ namespace WindowsForms_WTDS
                 ret++;
             if (left > count)
                 ret++;
-            if (right > count) ret++;
+            if (right > count)
+                ret++;
             return ret;
         }
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
